@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+
+  import java.util.ArrayList;
 
 public  class Books {
     private  String title, author, ISBN;
@@ -44,14 +45,6 @@ public  class Books {
 
         booksCollection.remove(book);
     }
-    // public static void get_book(Books book){
-    //     // @Override
-    //     // public String toString(){
-    //     //     return ;
-    //     // }
-
-    //     System.out.println("Title : "+book.title+", Author : "+book.author+", ISBN : "+book.ISBN);
-    // }
 
     public static void getBook(){
 
@@ -70,24 +63,7 @@ public static void main(String[] args){
 
         Books.remove_book(book2);
         Books.getBook();
-        //imp......
-        // System.out.println(Books.title);
-
-
-        // ArrayList <Books> booksCollection =getBook();
-        // for(Books book : booksCollection){
-        //     System.out.println(" Title : "+book.title+", Author : "+book.author+", ISBN : "+book.ISBN);
-        // }
-
-        // book1.SetTitle("Math book");
-        //  Books.get_book(book1);
-        //  Books.get_book(book2);
-        // remove_book(book2);
-        
-        // for(Books book : booksCollection){
-        //     System.out.println(" Title : "+title+", Author : "+author+", ISBN : "+ISBN);
-        // }
-
-        
+           
     }
 }
+
